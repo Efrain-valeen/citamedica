@@ -19,7 +19,11 @@ public class Main {
         System.out.println("Arreglo original:");
         System.out.println(Arrays.toString(numeros));
 
-        Ordenamientos.selectionSort(numeros); 
+        // puedes cambiar entre algoritmos aquí
+
+        // Ordenamientos.bubbleSort(numeros);
+        // Ordenamientos.selectionSort(numeros);
+        Ordenamientos.insertionSort(numeros);
 
         System.out.println("Arreglo ordenado:");
         System.out.println(Arrays.toString(numeros));
@@ -27,4 +31,3 @@ public class Main {
     }
 
 }
-
